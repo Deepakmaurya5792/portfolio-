@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://wallpaperbat.com/img/94278-web-design-wallpaper-top-free-web-design-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    overflow-x: hidden;
+}
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #2c414c;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #010609;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #2d3b43;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(33% - 40px);
+    min-width: 280px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
+}
+
+.box h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    color: #416375;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 10px;
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box ul li {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+}
+
